@@ -1,0 +1,9 @@
+<h1>in show</h1>
+
+<h1><%= @smoothie.name %> </h1>
+
+<ul>
+  <% @smoothie.ingredients.each do |q| %>
+  <li> <%= q.name %> </li>
+  <% end %>
+</ul>

@@ -1,0 +1,10 @@
+<h1>in index</h1>
+
+<ul>
+  <% @smoothies.each do |q| %>
+
+  <li><%= link_to q.name, smoothie_path(q) %></li>
+
+  <% end %>
+
+</ul>
